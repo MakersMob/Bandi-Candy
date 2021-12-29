@@ -147,7 +147,7 @@ const Home = (props: HomeProps) => {
 
   useEffect(() => {
     (async () => {
-      await updateBalance();
+      //await updateBalance();
     })();
   }, [wallet, props.connection, tokenMint]);
 
